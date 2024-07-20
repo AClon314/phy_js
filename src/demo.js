@@ -24,6 +24,12 @@ MatterTools.Demo.create({
   
   examples: [
     {
+      name: 'balance pan',
+      id: 'pan',
+      init: Example.pan,
+      sourceLink: './docs/examples/pan.js'
+    },
+    {
       name: 'Basic',
       id: 'basic',
       init: Example.basic,

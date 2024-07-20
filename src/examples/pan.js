@@ -1,6 +1,6 @@
 var Example = Example || {};
 
-Example.catapult = function() {
+Example.pan = function() {
     var Engine = Matter.Engine,
         Render = Matter.Render,
         Runner = Matter.Runner,
@@ -96,9 +96,9 @@ Example.catapult = function() {
     };
 };
 
-Example.catapult.title = 'Catapult';
-Example.catapult.for = '>=0.14.2';
+// Example.pan.title = 'Balance pan';
+// Example.pan.for = '>=0.14.2';
 
-if (typeof module !== 'undefined') {
-    module.exports = Example.catapult;
-}
+// if (typeof module !== 'undefined') {
+//     module.exports = Example.pan;
+// }
